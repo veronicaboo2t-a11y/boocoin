@@ -1,0 +1,9 @@
+[project]
+name = "boocoin"
+description = "BooCoin fungible token (Clarity)"
+authors = ["Nkechi Okoye"]
+telemetry = false
+
+[contracts.boocoin]
+path = "contracts/boocoin.clar"
+depends_on = []
